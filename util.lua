@@ -56,7 +56,7 @@ function utils.dCopy(x)
   return ret
 end
 
-function funcs.split(inputstr, sep)
+function utils.split(inputstr, sep)
   if sep == nil then
     sep = "%s"
   end
